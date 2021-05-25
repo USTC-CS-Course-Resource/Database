@@ -137,7 +137,7 @@ PB18111697 王章瀚
 </tr>
 </table>
 
-插入 K, L, M, N 都可以直接插入:
+插入 K, L 都可以直接插入:
 
 <table style='width:60%; text-align:center; margin:auto'>
 <tr>
@@ -145,7 +145,15 @@ PB18111697 王章瀚
 </tr>
 </table>
 
-因此共有 5 个桶(溢出块不算桶). 键值 $B[00111]$ 所在得桶全部键值为: $B[00111], G[00011], N[11111]$
+插入 M 要扩展, 而后直接插入 N:
+
+<table style='width:60%; text-align:center; margin:auto'>
+<tr>
+    <td><p><img src='image/2.2.abcdefghijklmn.png'></img></p></td>
+</tr>
+</table>
+
+因此共有 6 个桶(溢出块不算桶). 键值 $B[00111]$ 所在得桶全部键值为: $B[00111], G[00011], N[11111]$
 
 ## 3.
 
