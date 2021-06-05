@@ -1,0 +1,3 @@
+[submodule "lab/Bank-Mangement-System"]
+	path = lab/Bank-Mangement-System
+	url = git@github.com:USTC-CS-Course-Resource/Bank-Mangement-System.git
